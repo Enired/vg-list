@@ -1,5 +1,17 @@
-body{
-  background-color: black;
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
+$cardHeader: #184a4a;
+$fontColor: #83eec5;
+
+section.game-card{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: $cardHeader;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: $fontColor;
+  
+  div.game-card-body{
+    display: flex;
+    flex-direction: row;
+  
+  }
 }
